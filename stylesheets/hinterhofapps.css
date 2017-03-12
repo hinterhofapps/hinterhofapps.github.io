@@ -1,0 +1,104 @@
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.impressum {
+    font-weight:200;
+    text-align: center;
+}
+
+.headline {
+    margin: 1em 0;
+    font-size: 3em;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #525252;
+}
+
+.quote {
+    padding: 0;
+    border: none;
+    font-style: normal;
+    text-align: center;
+    color: #525252;
+}
+
+.link {
+    text-align: center;
+}
+
+.images {
+    overflow: hidden;
+    margin: 50px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.images li {
+    text-align: center;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+}
+
+.subline {
+    padding: 0 10%;
+    margin: 3em 0 0.5em;
+    min-height: 80px;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1.4em;
+    text-align: left;
+    text-transform: lowercase;
+    color: #525252;
+}
+
+.subline span {
+    display: block;
+    font-size: 1.7em;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav {
+    font-size: 0.9em;
+    text-align: right;
+}
+
+/* unvisited link */
+.nav a:link {
+    color: gray;
+}
+
+/* visited link */
+.nav a:visited {
+    color: gray;
+}
+
+/* mouse over link */
+.nav a:hover {
+    color: gray;
+}
+
+/* selected link */
+.nav a:active {
+    color: gray;
+}
+
+@media screen and (min-width: 480px) {
+    .images li {
+        width: 33.33%;
+        float: left;
+    }
+
+    .subline {
+        margin-top: 1em;
+    }
+}
